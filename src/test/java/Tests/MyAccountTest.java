@@ -19,7 +19,7 @@ public class MyAccountTest extends TestBase {
 	//للتسهيل
 	String fristName="nada";
 	String lastname="samy";
-	String email="noura992@gmail.com";
+	String email="noura993@gmail.com";
 	
 	String oldPassword="54321&,";
 	String newPassword="123456";

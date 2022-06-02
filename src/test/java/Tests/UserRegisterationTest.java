@@ -19,7 +19,7 @@ public class UserRegisterationTest extends TestBase {
 		HomePageobject=new HomePage(driver);
         UserRegisterationPageobject=new UserRegisterationPage(driver);
         HomePageobject.clickonregister();
-        UserRegisterationPageobject.btn_register("Ahmeg", "samy", "Ahmed4000@gmail.com", "Helwan University","54321&,","54321&,");
+        UserRegisterationPageobject.btn_register("Ahmeg", "samy", "Ahmed4100@gmail.com", "Helwan University","54321&,","54321&,");
         AssertJUnit.assertTrue(UserRegisterationPageobject.sucessMessage.getText().contains("Your registration completed"));
 	}
 	
@@ -35,7 +35,7 @@ public class UserRegisterationTest extends TestBase {
 		HomePageobject.clickonlogin();
 		UserLoginPageObject=new LoginPage(driver);
 		//Assert.assertTrue(UserRegisterationPageobject.Log_outbtn.getText().equals("Log out"));
-		UserLoginPageObject.LoginSuccessfully( "Ahmed4000@gmail.com", "54321&,");
+		UserLoginPageObject.LoginSuccessfully( "Ahmed4100@gmail.com", "54321&,");
 	}
 	
 }

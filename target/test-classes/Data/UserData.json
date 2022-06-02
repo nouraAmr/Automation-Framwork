@@ -1,0 +1,20 @@
+[
+{
+ 	"firstname" : "Moataz",
+ 	"lastname" : "Nabil" ,
+ 	"email" : "moatazxyz@test.com",
+ 	"company":"Helwan",
+ 	"password" : "12345678" ,
+ 	"confirmpassword" : "12345678" 
+ 	
+},
+{
+ 	"firstname" : "noura",
+ 	"lastname" : "Nabil" ,
+ 	"email" : "nouraxyz@test.com",
+ 	"company":"Helwan",
+ 	"password" : "12345678" ,
+ 	"confirmpassword" : "12345678" 
+ 	
+}
+]

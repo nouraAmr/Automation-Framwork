@@ -6,8 +6,11 @@
       <class name="Tests.ReviewPageTest">
         <methods>
           <include name="registerUserSuccessfully"/>
+          <include name="setUpClass"/>
           <include name="startDriver"/>
+          <include name="tearDownClass"/>
           <include name="User_Can_log_out"/>
+          <include name="usercansearchforproduct"/>
           <include name="RegisterUserCanReviewProduct"/>
         </methods>
       </class> <!-- Tests.ReviewPageTest -->

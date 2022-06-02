@@ -38,7 +38,7 @@ public class UserRegisterationPage extends PageBase{
 	@FindBy(css="div.result")
     public WebElement sucessMessage;
 	
-	@FindBy(linkText="Log out")
+	@FindBy(css="a.ico-logout")
 	public WebElement Log_outbtn;
 
 	@FindBy(linkText="My account")
@@ -52,8 +52,8 @@ public class UserRegisterationPage extends PageBase{
 		email.sendKeys(emailtxt);
 		Company_name.sendKeys(Copname);
 		pasword.sendKeys(passwordtxt);
-		sendTextElementText(confirmpassword,confirmpasswordtxt);
-		//confirmpassword.sendKeys(confirmpasswordtxt);
+		//sendTextElementText(confirmpassword,confirmpasswordtxt);
+		confirmpassword.sendKeys(confirmpasswordtxt);
 		clickButton(register);
 		//register.click();
 		

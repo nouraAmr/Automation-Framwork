@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite  name="Test Regression Suite">
-  <Parameter  name="browser" value="ie"></Parameter>
+  <Parameter  name="browser" value="chrome-headless"></Parameter>
   <test name="Test Regression">
     <classes>
       <class name="Tests.ReviewPageTest"/> 

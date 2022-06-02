@@ -3,12 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.CompareTest">
+      <class name="Tests.EmailFriendTest">
         <methods>
+          <include name="User_Can_log_out"/>
+          <include name="setUpClass"/>
+          <include name="usercansearchforproduct"/>
           <include name="startDriver"/>
-          <include name="UserCanSearchWithAutoSuggest"/>
+          <include name="tearDownClass"/>
+          <include name="registerUserCanSendProductToFriend"/>
+          <include name="registerUserSuccessfully"/>
         </methods>
-      </class> <!-- Tests.CompareTest -->
+      </class> <!-- Tests.EmailFriendTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
